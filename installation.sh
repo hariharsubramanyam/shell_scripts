@@ -19,8 +19,8 @@ mv sqlite-autoconf-3150100 sqlite
 cd sqlite
 ./configure
 make
-make install
-mv sqlite3 /usr/bin/
+sudo make install
+sudo mv sqlite3 /usr/bin/
 cd
 
 # Install SBT
