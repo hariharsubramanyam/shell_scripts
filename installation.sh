@@ -33,8 +33,8 @@ sudo apt-get install sbt
 wget http://d3kbcqa49mib13.cloudfront.net/spark-2.0.0-bin-hadoop2.7.tgz
 tar -xvzf spark-2.0.0-bin-hadoop2.7.tgz
 mv spark-2.0.0-bin-hadoop2.7 spark
-export PATH=`pwd`/spark/sbin:$PATH
-export PATH=`pwd`/spark/bin:$PATH
+export PATH=~/spark/sbin:$PATH
+export PATH=~/spark/bin:$PATH
 
 # Clone the repo.
 git clone https://github.com/mitdbg/modeldb.git
