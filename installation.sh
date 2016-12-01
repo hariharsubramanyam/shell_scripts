@@ -1,6 +1,11 @@
 # Install some dependencies.
 sudo apt-get update
-sudo apt-get install maven git sqlite default-jre default-jdk python policycoreutils libboost-dev libboost-test-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev libevent-dev automake libtool flex bison pkg-config g++ libssl-dev make
+sudo apt-get install maven git sqlite python policycoreutils libboost-dev libboost-test-dev libboost-program-options-dev libboost-system-dev libboost-filesystem-dev libevent-dev automake libtool flex bison pkg-config g++ libssl-dev make
+
+# Install Java
+sudo apt-add-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
 
 # Install thrift.
 cd /tmp
