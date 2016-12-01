@@ -48,4 +48,4 @@ wget http://www.mit.edu/~hsubrama/datasets/animal.csv
 # Run the evaluation
 setenforce 0
 cd ./modeldb/client/scala/libs/spark.ml
-./full_evaluation.sh ~/evaluation ~/movie_metadata.csv ~/animal.csv ~/house.csv
+#./full_evaluation.sh ~/evaluation ~/movie_metadata.csv ~/animal.csv ~/house.csv
