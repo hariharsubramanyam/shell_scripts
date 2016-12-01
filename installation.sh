@@ -36,10 +36,15 @@ mv spark-2.0.0-bin-hadoop2.7 spark
 export PATH=~/spark/sbin:$PATH
 export PATH=~/spark/bin:$PATH
 
-# Clone the repo.
-git clone https://github.com/mitdbg/modeldb.git
+# Get the code
+wget http://www.mit.edu/~hsubrama/modeldb.tar.gz
+tar -xvzf modeldb.tar.gz
 
 # Get the datasets
+wget http://www.mit.edu/~hsubrama/datasets/movie_metadata.csv
+wget http://www.mit.edu/~hsubrama/datasets/house.csv
+wget http://www.mit.edu/~hsubrama/datasets/animal.csv
+
 scp hsubrama@athena.dialup.mit.edu:~/www/datasets/* ./
 
 # Run the evaluation
