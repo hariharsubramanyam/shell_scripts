@@ -45,8 +45,6 @@ wget http://www.mit.edu/~hsubrama/datasets/movie_metadata.csv
 wget http://www.mit.edu/~hsubrama/datasets/house.csv
 wget http://www.mit.edu/~hsubrama/datasets/animal.csv
 
-scp hsubrama@athena.dialup.mit.edu:~/www/datasets/* ./
-
 # Run the evaluation
 setenforce 0
 cd ./modeldb/client/scala/libs/spark.ml
